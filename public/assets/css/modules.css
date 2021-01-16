@@ -1,0 +1,400 @@
+@import url("font-awesome.min.css");
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,600");
+
+/*
+	Prologue by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+*/
+
+html, body, div, span, applet, object,
+iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
+pre, a, abbr, acronym, address, big, cite,
+code, del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var, b,
+u, i, center, dl, dt, dd, ol, ul, li, fieldset,
+form, label, legend, table, caption, tbody,
+tfoot, thead, tr, th, td, article, aside,
+canvas, details, embed, figure, figcaption,
+footer, header, hgroup, menu, nav, output, ruby,
+section, summary, time, mark, audio, video {
+	font: inherit;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+	blockquote:before, blockquote:after, q:before, q:after {
+		content: '';
+		content: none;
+	}
+
+mark {
+	background-color: transparent;
+	color: inherit;
+}
+
+/* Basic */
+
+	body {
+		background: #fff;
+		font-family: 'Source Sans Pro', sans-serif;
+		color: #888;
+	}
+
+	input, textarea, select {
+		font-family: 'Source Sans Pro', sans-serif;
+		font-weight: 300;
+		color: #888;
+	}
+
+	h1, h2, h3, h4, h5, h6 {
+		font-weight: 300;
+		color: #666;
+	}
+
+	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+		color: inherit;
+		text-decoration: none;
+	}
+
+		h1 a strong, h2 a strong, h3 a strong, h4 a strong, h5 a strong, h6 a strong {
+			color: #333;
+		}
+
+		h2.alt {
+			color: #888;
+		}
+
+			h2.alt strong {
+				color: #666;
+			}
+
+	strong, b {
+		font-weight: 300;
+		color: #666;
+	}
+
+	em, i {
+		font-style: italic;
+	}
+
+	a {
+		text-decoration: none;
+		color: inherit;
+		border-bottom: dotted rgba(128, 128, 128, 0.5);
+		-moz-transition: color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
+		-webkit-transition: color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
+		-ms-transition: color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
+		transition: color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
+		outline: 0;
+	}
+
+		a:hover {
+			color: #E27689;
+			border-bottom-color: rgba(255, 255, 255, 0);
+		}
+
+	hr {
+		border-top: #ddd;
+	}
+
+	blockquote {
+		border-left: #ddd;
+
+		font-style: italic;
+	}
+
+
+/* Image */
+
+		.image.avatar48 {
+			background: #f00;
+		}
+
+/* Icons */
+
+	ul.icons {
+		cursor: default;
+		list-style: none;
+	}
+
+/* Form */
+
+	
+	form input[type="text"],
+	form input[type="email"],
+	form input[type="password"],
+	form select,
+	form textarea {
+		background: #fff;
+		background: rgba(255, 255, 255, 0.75);
+		box-shadow: rgba(0, 0, 0, 0.05);
+		border: rgba(0, 0, 0, 0.15);
+	}
+
+		form input[type="text"]:focus,
+		form input[type="email"]:focus,
+		form input[type="password"]:focus,
+		form select:focus,
+		form textarea:focus {
+			box-shadow: #8ebebc;
+			background: #fff;
+		}
+
+	form ::-webkit-input-placeholder {
+		color: #555 !important;
+	}
+
+	form :-moz-placeholder {
+		color: #555 !important;
+	}
+
+	form ::-moz-placeholder {
+		color: #555 !important;
+	}
+
+	form :-ms-input-placeholder {
+		color: #555 !important;
+	}
+
+/* Table */
+
+		table tbody tr:nth-child(2n+2) {
+			background: #f4f4f4;
+		}
+
+		table th {
+			color: #fff;
+			background: #222729 url("images/overlay.png");
+		}
+
+		table thead {
+			background: #444;
+			color: #fff;
+		}
+
+		table tfoot {
+			background: #eee;
+		}
+
+/* Button */
+
+	input[type="button"],
+	input[type="submit"],
+	input[type="reset"],
+	button,
+	.button {
+		color: #fff !important;
+		text-decoration: none;
+		background-color: #8ebebc;
+		cursor: pointer;
+		background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15)), url("images/overlay.png");
+		background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15)), url("images/overlay.png");
+		background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15)), url("images/overlay.png");
+		background-image: linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15)), url("images/overlay.png");
+		-moz-transition: background-color 0.35s ease-in-out;
+		-webkit-transition: background-color 0.35s ease-in-out;
+		-ms-transition: background-color 0.35s ease-in-out;
+		transition: background-color 0.35s ease-in-out;
+	}
+
+		input[type="button"]:hover,
+		input[type="submit"]:hover,
+		input[type="reset"]:hover,
+		button:hover,
+		.button:hover {
+			background-color: #9ececc;
+		}
+
+		input[type="button"]:active,
+		input[type="submit"]:active,
+		input[type="reset"]:active,
+		button:active,
+		.button:active {
+			background-color: #7eaeac;
+		}
+
+/* Item */
+
+		.item header {
+			background: #fff;
+		}
+
+/* Icons */
+
+	.icon {
+		text-decoration: none;
+	}
+
+		.icon:before {
+			font-family: FontAwesome;
+			text-decoration: none;
+			font-style: normal;
+			font-weight: normal;
+		}
+
+/* Header */
+
+	#header {
+		background: #222629 url("images/overlay.png");
+		box-shadow: rgba(0, 0, 0, 0.1);
+		color: #fff;
+	}
+
+			#header .icons a {
+				color: #41484c;
+				-moz-transition: color 0.35s ease-in-out;
+				-webkit-transition: color 0.35s ease-in-out;
+				-ms-transition: color 0.35s ease-in-out;
+				transition: color 0.35s ease-in-out;
+			}
+
+				#header .icons a:hover {
+					color: #fff;
+				}
+
+	#logo {
+		cursor: default;
+	}
+
+		#logo h1 {
+			color: #fff;
+			font-weight: 600;
+		}
+
+		#logo p {
+			color: rgba(255, 255, 255, 0.5);
+    }
+    
+	#nav ul {
+		list-style: none;
+		}
+
+			#nav ul li a {
+				color: rgba(255, 255, 255, 0.5);
+				text-decoration: none;
+			}
+
+					#nav ul li a span:before {
+						color: #41484c;
+					}
+
+				#nav ul li a.active {
+					background: rgba(0, 0, 0, 0.15);
+					box-shadow:  rgba(0, 0, 0, 0.125);
+					color: #fff;
+				}
+
+					#nav ul li a.active span:before {
+						color: #e27689;
+					}
+
+/* Footer */
+
+	#footer {
+		background-color: #dce3e2;
+		box-shadow: rgba(0, 0, 0, 0.05),  rgba(0, 0, 0, 0.025);
+  }
+
+		#footer .copyright {
+			cursor: default;
+		}
+
+			#footer .copyright li {
+				border-left:  rgba(128, 128, 128, 0.35);
+
+			}
+
+/* Main */
+
+
+		#main > section {
+
+			box-shadow:  rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.025);
+			background-image: url("images/overlay.png");
+		}
+
+			#main > section.dark {
+				color: #ddd;
+				color: rgba(255, 255, 255, 0.75);
+			}
+
+				#main > section.dark h2, #main > section.dark h3, #main > section.dark h4, #main > section.dark h5, #main > section.dark h6 {
+					color: inherit;
+				}
+
+				#main > section.dark strong {
+					color: #fff;
+					border-color: inherit;
+				}
+
+				#main > section.dark a {
+					color: #fff;
+					border-color: inherit;
+				}
+
+					#main > section.dark a:hover {
+						border-bottom-color: rgba(255, 255, 255, 0);
+					}
+
+			#main > section.one {
+				background-color: #81918E;
+				background-image: url("../../images/banner.jpg");
+			}
+
+			#main > section.two {
+				background-color: #f5fafa;
+			}
+
+			#main > section.three {
+				background-color: #ecf1f1;
+			}
+
+			#main > section.four {
+				background-color: #e8edec;
+			}
+
+	@media screen and (max-width: 960px) {
+	
+		/* Header */
+
+			#header {
+				background: #222729 url("images/overlay.png");
+				box-shadow: rgba(0, 0, 0, 0.125);
+			}
+
+				#header .bottom {
+					border-top: rgba(255, 255, 255, 0.05);
+					box-shadow:rgba(0, 0, 0, 0.15);
+
+				}
+
+					#headerToggle .toggle:before {
+						font-family: FontAwesome;
+						text-decoration: none;
+						font-style: normal;
+						font-weight: normal;
+						color: #fff;
+						background: rgba(128, 136, 144, 0.5);
+					}
+
+
+/* Mobile */
+
+	@media screen and (max-width: 736px) {
+
+		/* Basic */
+
+
+			h2 {
+				font-weight: 300;
+			}
+
+    }
+  }
