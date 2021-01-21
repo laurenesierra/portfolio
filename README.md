@@ -28,7 +28,7 @@ Actual time needed to complete: 25
 
 Estimate of time needed to complete: 30
 
-Start time: 8:40
+Start time: 6:45
 
 Finish time: 
 
